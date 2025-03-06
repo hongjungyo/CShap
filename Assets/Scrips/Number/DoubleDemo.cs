@@ -14,11 +14,11 @@ public class DoubleDemo : MonoBehaviour
         Debug.Log(f);
         Debug.Log(d);
 
-        double doublemin = double.MinValue;
-        double doubleMax = double.MaxValue;
+        //double doublemin = double.MinValue;
+        //double doubleMax = double.MaxValue;
 
-        float floatMin = float.MinValue;
-        float floatMax = float.MaxValue;
+        //float floatMin = float.MinValue;
+        //float floatMax = float.MaxValue;
 
 
         Debug.Log("double ÃÖ¼Ò°ª:" + Double.MinValue);

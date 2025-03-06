@@ -13,10 +13,10 @@ public class SignedInteger : MonoBehaviour
         
         
         //UnSignedInteger
-        byte ibyte = 255;
-        ushort iuint16 = 65535; //16비트 부호가 없는 정수형 변수 선언및 초기화
-        uint iuint32 = 4294967295;//32비트 부호가 없는 정수형 변수 선언및 초기화
-        ulong iuint64 = 18446744073709551615; //64비트 부호가 없는 정수형 변수 선언및 초기화
+        //byte ibyte = 255;
+        //ushort iuint16 = 65535; //16비트 부호가 없는 정수형 변수 선언및 초기화
+        //uint iuint32 = 4294967295;//32비트 부호가 없는 정수형 변수 선언및 초기화
+        //ulong iuint64 = 18446744073709551615; //64비트 부호가 없는 정수형 변수 선언및 초기화
 
         Debug.Log("sbyte:" + iSbyte);
         Debug.Log("short:" + iint16);
