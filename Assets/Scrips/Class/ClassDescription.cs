@@ -5,23 +5,23 @@ public class ClassDescription : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Run(); //¸Ş¼­µå È£Ãâ:  °°Àº Å¬·¡½ºÀÇ ¸Ş¼­µå È£Ãâ
+        Run(); //ë©”ì„œë“œ í˜¸ì¶œ:  ê°™ì€ í´ë˜ìŠ¤ì˜ ë©”ì„œë“œ í˜¸ì¶œ
     }
 
-    //ClassDescription ¶ó´Â Å¬·¡½ºÀÇ Run() ¸Ş¼­µå(ÇÔ¼ö)
+    //ClassDescription ë¼ëŠ” í´ë˜ìŠ¤ì˜ Run() ë©”ì„œë“œ(í•¨ìˆ˜)
     void Run()
     {
-        Debug.Log("ClassDescription ¶ó´Â Å¬·¡½ºÀÇ Run ¸Ş¼­µå");
+        Debug.Log("ClassDescription ë¼ëŠ” í´ë˜ìŠ¤ì˜ Run ë©”ì„œë“œ");
     }
 }
 
 /*
-Class(Å¬·¡½º) - C# ±âº»ÀÌ µÇ´Â ±¸¹®
-: ÇÏ³ªÀÇ ÀÌ¸§À¸·Î ¼­·Î ´Ù¸¥ (Çü½ÄÀÇ) µ¥ÀÌÅÍµé°ú ÇÔ¼öµéÀ» ¹­¾î¼­ °ü¸®ÇÏ´Â ±×¸©(±¸¹®)
+Class(í´ë˜ìŠ¤) - C# ê¸°ë³¸ì´ ë˜ëŠ” êµ¬ë¬¸
+: í•˜ë‚˜ì˜ ì´ë¦„ìœ¼ë¡œ ì„œë¡œ ë‹¤ë¥¸ (í˜•ì‹ì˜) ë°ì´í„°ë“¤ê³¼ í•¨ìˆ˜ë“¤ì„ ë¬¶ì–´ì„œ ê´€ë¦¬í•˜ëŠ” ê·¸ë¦‡(êµ¬ë¬¸)
 :......
-:»ç¿ëÀÚ Á¤ÀÇ µ¥ÀÌÅÍ Çü½Ä
+:ì‚¬ìš©ì ì •ì˜ ë°ì´í„° í˜•ì‹
 
-public class(Å¬·¡½º ÀÌ¸§)
+public class(í´ë˜ìŠ¤ ì´ë¦„)
 {
 
 }

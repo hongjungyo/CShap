@@ -1,16 +1,16 @@
 using UnityEngine;
 
-//Random Å¬·¡½º : ·£´ı°ª°ú °ü·ÃµÈ º¯¼öµé, ¸Ş¼­µåµéÀÌ ÀÖ´Â Å¬·¡½º
+//Random í´ë˜ìŠ¤ : ëœë¤ê°’ê³¼ ê´€ë ¨ëœ ë³€ìˆ˜ë“¤, ë©”ì„œë“œë“¤ì´ ìˆëŠ” í´ë˜ìŠ¤
 public class RandomDemo : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //RandomÅ¬·¡½º(³»ÀåÅ¬·¡½º)ÀÇ °´Ã¼ »ı¼º
+        //Randomí´ë˜ìŠ¤(ë‚´ì¥í´ë˜ìŠ¤)ì˜ ê°ì²´ ìƒì„±
         System.Random random = new System.Random();
 
-        //ÀÓÀÇÀÇ Á¤¼ö°ª ±¸ÇÏ±â
+        //ì„ì˜ì˜ ì •ìˆ˜ê°’ êµ¬í•˜ê¸°
         Debug.Log(random.Next(1,9));
-        //0,1,2,3,4Áß ÇÏ³ªÀÇ °ª ±¸ÇÏ±â
+        //0,1,2,3,4ì¤‘ í•˜ë‚˜ì˜ ê°’ êµ¬í•˜ê¸°
     }
 }

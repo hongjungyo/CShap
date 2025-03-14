@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class ClassMember
 {
-    //[1]Á¤Àû(static) ¸Å¼­µå    
+    //[1]ì •ì (static) ë§¤ì„œë“œ    
     public static void StaticMember()
     {
-        Debug.Log("[1]Á¤Àû(static) ¸Å¼­µå ");
+        Debug.Log("[1]ì •ì (static) ë§¤ì„œë“œ ");
     }
-    //[2]ÀÎ½ºÅÏ½º(InstanceMethod) ¸Ş¼­µå
+    //[2]ì¸ìŠ¤í„´ìŠ¤(InstanceMethod) ë©”ì„œë“œ
     public void InstanceMethod()
     {
-        Debug.Log("[1]Á¤Àû(static) ¸Å¼­µå ");
+        Debug.Log("[1]ì •ì (static) ë§¤ì„œë“œ ");
     }
 }
+
