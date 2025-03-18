@@ -21,10 +21,14 @@ namespace PrivatePublic
             //[2]Car 클래스의 객체를 통해 public한 메서드에 접근해서 사용
             myCar.Hi();
 
-            //[3]Car 클래스의 객체를 통해 private한 메서드에 접근해서 사용 (X)
+            //[2]Car 클래스의 객체를 통해 private한 메서드에 접근해서 사용 (X)
             //myCar.Bye();
 
-
+            //[3] Car 클래스의 private한 필드(age)에 접근해서 사용
+            //myCar.age=21
+            myCar.SetAge(21);
+            int myAge = myCar.GetAge();
+            Debug.Log(myAge);
 
         }
     }
